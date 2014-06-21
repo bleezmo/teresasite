@@ -1,7 +1,35 @@
-@(message: String)
+<!DOCTYPE html>
 
-@main("Welcome to Play 2.1") {
-    
-    @play20.welcome(message)
-    
-}
+<html>
+    <head>
+        <title>Candlewriter</title>
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("stylesheets/bootstrap.min.css")">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <script src="@routes.Assets.at("javascripts/jquery-1.11.1.min.js")" type="text/javascript"></script>
+        <script src="@routes.Assets.at("javascripts/bootstrap.min.js")" type="text/javascript"></script>
+    </head>
+    <body>
+    	<div class="background">
+	        <div class="title"><q>The Candlewriter</q></div>
+	        <div class="sub-title">Bar/Bat Mitzvah candlelighting poetry</div>
+	        <div class="subsub-title">exquisite verse composed for your simcha</div>
+    	</div>
+    	<div id="contactinfo-bar" class="contactinfo-bar">
+    		<div class="contact1">
+    			<p>
+    			Teresa J. Rogers<br/>
+    			P.O. Box 741<br/>
+    			Cornwall, NY 12518
+    			</p>
+    		</div>
+    		<div class="contact2">
+    			<p>
+    				email: tjrogers@@aol.com<br/>
+    				phone: (845) 534-8092<br/>
+    				cell: (914) 850-4288
+    			</p>
+    		</div>
+    	</div>
+    </body>
+</html>

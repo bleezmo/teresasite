@@ -1,0 +1,45 @@
+@font-face{
+	font-family: titleFont;
+	src: url(../fonts/cac_champagne.ttf);
+}
+.title{
+	padding-top: 35px;
+	text-align: center;
+	font-family: titleFont;
+	font-size: 45px;
+	font-weight: 500;
+	color: #0543C7;
+}
+.background{
+	background: url("../images/torah.jpg");
+	margin-right: auto;
+	margin-left: auto;
+	width: 1024px;
+	height: 625px;
+}
+.sub-title{
+	font-size: 24px;
+	text-align: center;
+}
+.subsub-title{
+	font-size: 20px;
+	text-align: center;
+}
+.contactinfo-bar{
+	position: relative;
+	border-top-style: solid;
+	border-width: 2px;
+	margin-top: 15px;
+}
+.contact1{
+	position: absolute;
+	left: 100px;
+	width:200px;
+}
+.contact2{
+	position: absolute;
+	right: 100px;
+	width: 200px;
+}
+q:before { content: open-quote; }
+q:after { content: close-quote; }
