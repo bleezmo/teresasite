@@ -4,6 +4,11 @@
 
 # Home page
 GET     /                           controllers.Application.index
+GET		/about						controllers.Application.about
+GET		/contact					controllers.Application.contact
+GET		/faqs						controllers.Application.faqs
+GET		/howitworks					controllers.Application.howitworks
+GET		/samples					controllers.Application.samples
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

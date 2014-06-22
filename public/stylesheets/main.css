@@ -11,6 +11,7 @@
 	color: #0543C7;
 }
 .background{
+	position: relative;
 	background: url("../images/torah.jpg");
 	margin-right: auto;
 	margin-left: auto;
@@ -24,6 +25,14 @@
 .subsub-title{
 	font-size: 20px;
 	text-align: center;
+}
+.subsub-title ul{
+	margin-right: auto;
+	margin-left: auto;
+}
+.absolute{
+	position: absolute;
+	left: 300px;
 }
 .contactinfo-bar{
 	position: relative;
